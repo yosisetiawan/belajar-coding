@@ -1,0 +1,82 @@
+p{
+    color:red;
+}
+
+
+.paragraph{
+    color: yellow;
+    /* tex */
+}
+
+.green{
+    color: green;
+}
+
+.bigFont{
+    /* font-size: 100px; */
+}
+
+.my-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-table th{
+    /* 
+        property: value;
+    */
+    padding: 8px;
+    background-color: #36C2CE;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my-table td{
+
+}
+
+/* DUA IMplementasi CSS Selector pertama class atau tag html */
+
+div p {
+    border: 1px solid #000000;
+    color: red;
+    background-color: white;
+    text-align: justify;
+    /* padding: 8px; */
+}
+
+.table-learn{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-learn td{
+    text-align: center;
+}
+
+.table-learn th{
+    padding: 8px;
+}
+
+.table-mapel{
+    width: 100%;
+    border-collapse: collapse;
+    /* border-radius: 8px; */
+}
+
+.table-mapel th{
+    background-color: #9CDBA6;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.table-mapel td{
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+.mapel{
+    padding: 16px;
+    background-color: #E9C46A;
+}

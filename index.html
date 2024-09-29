@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS</title>
+</head>
+<body>
+    <!-- Panggil JS menggunakan Internal -->
+    <button onclick="fungsiBuatAlert()">ON CLICK INTERNAL</button>
+    <!-- Panggil JS dari external -->
+    <button onclick="cobainExternal()">ON CLICK External</button>
+    <!-- Panggil Javascript melalui Inline -->
+    <button onclick="alert('A');alert('B');alert('C');alert('D');">ON CLICK INLINE</button>
+</body>
+<!-- Internal Javascript menggunakan Tag <script> -->
+<script>
+    // Internal Javascript
+    // Kita Buat dulu Fungsi/Blok Fungsi
+    function fungsiBuatAlert(){
+        alert('E');
+        alert('F');
+        alert('G');
+        alert('H');
+        alert('I');
+    }
+</script>
+<!-- Panggil External Javascript -->
+ <script src="./script.js"></script>
+</html>
